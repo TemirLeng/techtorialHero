@@ -7,5 +7,4 @@ public class bestOfTheBest {
         System.out.println("bestOftheBest class");
 
     }
-
 }
