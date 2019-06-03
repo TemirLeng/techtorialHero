@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c3c6ef9-7a1c-469a-b4e0-8954768665fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/fifth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/first.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/fourth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/omg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/sixth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/ten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/third.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/tired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KubaHomeTask1/toguz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -31,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/ForLoopClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -60,22 +59,14 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/techtorialHero.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="y" value="23" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -106,6 +97,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="techtorialHero" type="b2602c69:ProjectViewProjectNode" />
+              <item name="techtorialHero" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kanybek" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,13 +145,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1346" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22392638" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22699386" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -186,6 +186,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/ForLoopClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
