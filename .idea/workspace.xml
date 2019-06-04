@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c3c6ef9-7a1c-469a-b4e0-8954768665fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherOne2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/JustAFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/aTags" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/buttonTags" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/divTags" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/inputTags" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -35,59 +34,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/ForLoopClass.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/inputTags">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="97" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWork/JustAFile">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/buttonTags">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="57" lean-forward="true" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWork/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
+            <state relative-caret-position="120">
+              <caret line="8" column="150" selection-start-line="8" selection-start-column="150" selection-end-line="8" selection-end-column="150" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherOne2.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/divTags">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-              <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/aTags">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1394" selection-start-line="8" selection-start-column="1394" selection-end-line="8" selection-end-column="1394" />
             </state>
           </provider>
         </entry>
@@ -110,11 +87,16 @@
         <option value="$PROJECT_DIR$/src/test/java/aizada/class2.java" />
         <option value="$PROJECT_DIR$/src/test/java/aizada/class1.java" />
         <option value="$PROJECT_DIR$/src/test/java/kanybek/ForLoopClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/JustAFile" />
         <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/Class.java" />
         <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherOne2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWork/JustAFile" />
+        <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/file1" />
+        <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/aTags" />
+        <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/inputTags" />
+        <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/buttonTags" />
+        <option value="$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/divTags" />
       </list>
     </option>
   </component>
@@ -132,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,21 +148,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kanybek" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="techtorialHero" type="b2602c69:ProjectViewProjectNode" />
-              <item name="techtorialHero" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kanybek" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,14 +186,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22699386" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23312883" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -257,27 +229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/ForLoopClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWork/JustAFile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" lean-forward="true" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWork/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -302,11 +253,56 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWork/AnotherOne2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
+          <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWork/JustAFile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/ForLoopClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/aTags">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1394" selection-start-line="8" selection-start-column="1394" selection-end-line="8" selection-end-column="1394" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/inputTags">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="97" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/buttonTags">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="150" selection-start-line="8" selection-start-column="150" selection-end-line="8" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kanybek/HomeWorkTags/divTags">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
