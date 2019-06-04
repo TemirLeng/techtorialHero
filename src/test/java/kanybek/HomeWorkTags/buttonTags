@@ -1,0 +1,9 @@
+<button data-action="a-popover-close" class=" a-button-close a-declarative" aria-label="Close"><i class="a-icon a-icon-close"></i></button>
+
+<button class="mapboxgl-ctrl-icon mapboxgl-ctrl-zoom-in" type="button" aria-label="Zoom In"></button>
+
+<button class="DigitalVideoWebNodeStorefront_SuperHero__hidden DigitalVideoWebNodeStorefront_SuperHero__handle DigitalVideoWebNodeStorefront_SuperHero__leftHandle" value="prev" disabled=""><b>Previous</b></button>
+
+<button status="add" aria-label="Add Season to Watchlist" class="DigitalVideoUI_Button__withIcons DigitalVideoUI_Button__translucent DigitalVideoUI_Button__button"><span class="DigitalVideoUI_Icon__icon DigitalVideoUI_Icon__add"></span><span class="DigitalVideoUI_Button__content"><span>Watchlist</span></span></button>
+
+<button value="next" class="DigitalVideoWebNodeStorefront_SuperHero__handle DigitalVideoWebNodeStorefront_SuperHero__rightHandle"><b>Next</b></button>
