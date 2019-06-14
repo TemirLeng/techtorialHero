@@ -1,0 +1,25 @@
+<div class="tst-filtersnav DigitalVideoWebNodeStorefront_FiltersNav__FiltersNav"><div class="DigitalVideoUI_HeadingBlock__headingBlock DigitalVideoUI_utility__clearfix"><div class="DigitalVideoUI_TabHeading__tab DigitalVideoUI_TabHeading__active"><a href="/gp/video/storefront/ref=atv_hm_hom_1_slct?contentType=home&amp;filterId=OFFER_FILTER%3DALL" class="tst-filtersnav-item tst-filtersnav-ALL DigitalVideoWebNodeStorefront_FiltersNav__item DigitalVideoWebNodeStorefront_FiltersNav__active">All videos</a></div><div class="DigitalVideoUI_TabHeading__tab"><a href="/gp/video/storefront/ref=atv_hm_hom_2_slct?contentType=home&amp;filterId=OFFER_FILTER%3DYOURS_TO_WATCH" class="tst-filtersnav-item tst-filtersnav-YOURS_TO_WATCH DigitalVideoWebNodeStorefront_FiltersNav__item">Your Videos</a></div><div class="DigitalVideoUI_TabHeading__tab"><a href="/gp/video/storefront/ref=atv_hm_hom_3_slct?contentType=home&amp;filterId=OFFER_FILTER%3DPRIME" class="tst-filtersnav-item tst-filtersnav-PRIME DigitalVideoWebNodeStorefront_FiltersNav__item">included with Prime</a></div><div class="DigitalVideoUI_TabHeading__tab"><a href="/gp/video/storefront/ref=atv_hm_hom_5_slct?contentType=home&amp;filterId=OFFER_FILTER%3DSUBSCRIPTIONS" class="tst-filtersnav-item tst-filtersnav-SUBSCRIPTIONS DigitalVideoWebNodeStorefront_FiltersNav__item">Channels</a></div><div class="DigitalVideoUI_TabHeading__tab"><a href="/gp/video/storefront/ref=atv_hm_hom_4_slct?contentType=home&amp;filterId=OFFER_FILTER%3DTVOD" class="tst-filtersnav-item tst-filtersnav-TVOD DigitalVideoWebNodeStorefront_FiltersNav__item">Rent or buy</a></div></div></div>
+
+<div id="sis_pixel_r2" aria-hidden="true" style="height:1px; position: absolute; left: -1000000px; top: -1000000px;"><iframe id="DAsis" src="//s.amazon-adsystem.com/iu3?d=amazon.com&amp;slot=navFooter&amp;a1=0101e92b4b349befe2c754f650ec698d234d322a63d60706e6fb9bd55f5ece506c70&amp;a2=01010de1fc6c75728a1af5734a63ab559d507d88e39fbf036d2aee66f011e4254f33&amp;old_oo=0&amp;ts=1559640849972&amp;s=AQKKr95aFJl6PaGsv22BRd4TzTSXCSrdHcmJXktBDnYi&amp;cb=1559640849972" width="1" height="1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+
+ <div id="a-popover-root" style="z-index:-1;position:absolute;"></div>
+
+ <div id="StayFocusd-infobar" style="display:none;">
+     <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+     <span id="StayFocusd-infobar-msg"></span>
+     <span id="StayFocusd-infobar-links">
+         <a id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+         <a id="StayFocusd-infobar-hide">hide once</a>
+     </span>
+ </div>
+
+ <div class="alert-messages hidden" id="message-drawer" style="top: -40px;">
+     <div class="message ">
+   <div class="message-inside">
+     <span class="message-text"></span>
+       <a role="button" class="Icon Icon--close Icon--medium dismiss" href="#">
+         <span class="visuallyhidden">Dismiss</span>
+       </a>
+   </div>
+ </div>
+ </div>
