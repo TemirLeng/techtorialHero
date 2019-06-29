@@ -13,7 +13,10 @@ public class class1 {
                 System.out.println(name+ "this is palindrome");
             }
         System.out.println("Asiyat was here");
+        System.out.println("local branch practice");
+        System.out.println("my final practice");
 
     }
     }
 }
+
