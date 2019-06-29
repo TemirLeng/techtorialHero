@@ -12,6 +12,7 @@ public class class1 {
             if(reverse.charAt(i)==name.charAt(i)){
                 System.out.println(name+ "this is palindrome");
             }
+        System.out.println("Asiyat was here");
 
     }
     }
