@@ -4,7 +4,7 @@ public class class1 {
     public static void main(String[] args){
     //polindrome
 
-    String name="civic";
+    String name="civicyyyuyyt";
     String reverse="";
 
     for(int  i= name.length()-1; i<0; i--) {
