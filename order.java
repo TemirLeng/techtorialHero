@@ -1,6 +1,5 @@
 package com.weborder;
 
-import com.github.javafaker.CreditCardType;
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -9,107 +8,116 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
-public class order {
+public class Order extends faker {
     static WebDriver driver;
 
-    public static void main(String[] args) {
 
-        Faker faker = new Faker();
+
+
+    public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
 
-        driver = new ChromeDriver();
+        driver= new ChromeDriver();
 
         driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
 
-        String url = "http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx";
-        driver.navigate().to(url);
 
-        WebElement login = driver.findElement(By.xpath("//input[@id='ctl00_MainContent_username']"));
+
+
+        String url ="http://secure.smartbearsoftware.com/samples/TestComplete12/WebOrders/Login.aspx";
+        driver.get(url );
+
+        WebElement login = driver.findElement( By.xpath("//*[@id='ctl00_MainContent_username']") );
         login.sendKeys("Tester");
-        WebElement passwd = driver.findElement(By.xpath("//input[@id='ctl00_MainContent_password']"));
 
-        passwd.sendKeys("test");
+        WebElement password =driver.findElement( By.xpath("//*[@id='ctl00_MainContent_password']"));
+        password.sendKeys("test");
 
-        WebElement submit = driver.findElement(By.xpath("//input [@type='submit']"));
+        WebElement submit= driver.findElement( By.xpath( "//*[@id='ctl00_MainContent_login_button']"));
         submit.click();
 
-        WebElement orderlink = driver.findElement(By.xpath("//a[@href='Process.aspx']"));
-        orderlink.click();
+        WebElement OrderLink= driver.findElement( By.xpath( "//*[@id='ctl00_menu']/li[3]/a" ) );
+        OrderLink.click();
 
 
-        WebElement quantity = driver.findElement(By.xpath("//input[@id='ctl00_MainContent_fmwOrder_txtQuantity']"));
-        quantity.sendKeys(Keys.BACK_SPACE);
-        int number = faker.number().numberBetween(1, 100);
-        quantity.sendKeys("" + number);
+        WebElement Quantity= driver.findElement( By.xpath( "//*[@id='ctl00_MainContent_fmwOrder_txtQuantity']"));
+    Quantity.sendKeys( Keys.BACK_SPACE );
 
-        String middleName = faker.name().firstName();
-        String fullName = String.format("John %s Smith", middleName);
+        Faker faker = new Faker();
+        Integer number=faker.number().numberBetween( 1,100 );
+        Quantity.sendKeys(""+number);
 
-        WebElement customerName = driver.findElement(By.xpath("//input[@id='ctl00_MainContent_fmwOrder_txtName']"));
-        customerName.sendKeys(fullName);
+        WebElement CustomerName= driver.findElement( By.xpath( "//*[@id='ctl00_MainContent_fmwOrder_txtName']"));
+        String name=faker.name().firstName();
+        String middle=faker.name().firstName();
+        CustomerName.sendKeys("John "+ middle +" Smith");
 
-        String street = faker.address().streetAddress();
-        WebElement streetWeb = driver.findElement(By.xpath("//input[@id='ctl00_MainContent_fmwOrder_TextBox2']"));
-        streetWeb.sendKeys(street);
+        WebElement Street=driver.findElement( By.xpath( "//*[@id='ctl00_MainContent_fmwOrder_TextBox2']" ) );
+        String streetAddress=faker.address().streetAddress();
+        Street.sendKeys( ""+streetAddress );
 
-        String city = faker.address().city();
-        WebElement cityWeb = driver.findElement(By.xpath("//input[@id='ctl00_MainContent_fmwOrder_TextBox3']"));
-        cityWeb.sendKeys(city);
+        WebElement city=driver.findElement( By.xpath( "//*[@id='ctl00_MainContent_fmwOrder_TextBox3']" ) );
+        String city1 =faker.address().city();
+        city.sendKeys( city1 );
 
-        String state = faker.address().state();
-        WebElement stateWeb = driver.findElement(By.xpath("//input[@id='ctl00_MainContent_fmwOrder_TextBox4']"));
-        stateWeb.sendKeys(state);
+        WebElement State=driver.findElement( By.xpath( "//*[@id='ctl00_MainContent_fmwOrder_TextBox4']" ) );
+        String states=faker.address().state();
+        State.sendKeys( states );
 
-        String zip = faker.address().zipCode();
-        String newzip = zip.substring(0, 5);
-        WebElement zipWeb = driver.findElement(By.xpath("//input[@id='ctl00_MainContent_fmwOrder_TextBox5']"));
-        zipWeb.sendKeys(newzip);
+        WebElement zip=driver.findElement( By.xpath( "//*[@id='ctl00_MainContent_fmwOrder_TextBox5']" ) );
+        String zips= faker.address().zipCode();
+        String newZip=zips.substring( 0,5 );
+        zip.sendKeys( newZip );
+
+
 
         WebElement visa = driver.findElement(By.xpath("//*[@id='ctl00_MainContent_fmwOrder_cardList_0']"));
-        WebElement masterCard = driver.findElement(By.xpath("//*[@id='ctl00_MainContent_fmwOrder_cardList_1']"));
-        WebElement americanExpress = driver.findElement(By.xpath("//*[@id='ctl00_MainContent_fmwOrder_cardList_2']"));
-        WebElement cardNumber = driver.findElement(By.xpath("//input[@id='ctl00_MainContent_fmwOrder_TextBox6']"));
-        int fakerNum = faker.number().numberBetween(0, 3);
+        WebElement mastercard = driver.findElement(By.xpath("//*[@id='ctl00_MainContent_fmwOrder_cardList_1']"));
+        WebElement amex = driver.findElement(By.xpath("//*[@id='ctl00_MainContent_fmwOrder_cardList_2']"));
 
-        switch (fakerNum) {
-            case 0:
-                visa.click();
-                String visaNum = faker.number().digits(15);
-                visaNum = '4'+visaNum;
-                cardNumber.sendKeys(visaNum);
-                break;
+        WebElement cardNr=driver.findElement( By.xpath( "//*[@id='ctl00_MainContent_fmwOrder_TextBox6']" ) );
 
+
+        int fakerNum=faker.number().numberBetween( 1,3 );
+
+        switch (fakerNum){
             case 1:
-                masterCard.click();
-                String masterNum = faker.number().digits(15);
-                cardNumber.sendKeys(masterNum);
-                masterNum = '5'+masterNum;
+                visa.click();
+             String Visa = faker.number().digits( 16 );
+             Visa='4'+Visa;
+             cardNr.sendKeys(Visa );
+
+
+                visa.sendKeys( Visa );
                 break;
+
             case 2:
-                americanExpress.click();
-                String AEnum = faker.number().digits(14);
-                AEnum = '3'+AEnum;
-                cardNumber.sendKeys(AEnum);
+                mastercard.click();
+                String master = faker.number().digits( 16 );
+              master='5'+master;
+              cardNr.sendKeys( master );
+
+            break;
+            case 3:
+                amex.click();
+                String ameX = faker.number().digits( 15 );
+                ameX='3'+ameX;
+                cardNr.sendKeys(ameX );
                 break;
         }
 
-        WebElement exp = driver.findElement(By.xpath("//input[@name='ctl00$MainContent$fmwOrder$TextBox1']"));
-        exp.sendKeys("03/22");
+        WebElement exp=driver.findElement( By.xpath( "//*[@id='ctl00_MainContent_fmwOrder_TextBox1']" ) );
+         String expiration="03/14";
 
-        WebElement Submit = driver.findElement(By.xpath("//a[@id='ctl00_MainContent_fmwOrder_InsertButton']"));
-        Submit.click();
-
-        WebElement actT = driver.findElement(By.xpath("//*[@id='ctl00_MainContent_fmwOrder']/tbody/tr/td/div/strong"));
-        String actualText=actT.getText();
-        String expectedText="New order has been successfully added.";
+        exp.sendKeys(expiration  );
 
 
-        if(actualText.equals(expectedText)){
-            System.out.println("True");
-        }else{
-            System.out.println("False");
-        }
+        WebElement Proccess= driver.findElement(By.xpath( "//*[@id='ctl00_MainContent_fmwOrder_InsertButton']" ) );
+        Proccess.click();
+
+
+
+
+
     }
 }
